@@ -100,7 +100,7 @@ export default function NavBar() {
       <marquee
         width="100%"
         direction="left"
-        style={{ fontSize: 'clamp(12px, 2.5vw, 14px)', padding: '8px 0' }}
+        style={{ fontSize: 'clamp(12px, 2.5vw, 14px)' }}
       >
         We create..!! You Celebrate..!!
       </marquee>
@@ -183,7 +183,7 @@ export default function NavBar() {
           justifyContent: 'center',
           alignItems: 'center',
           gap: { xs: 2, md: 4 },
-          py: 2,
+          py: 1,
           bgcolor: 'background.paper',
           flexWrap: 'wrap',
         }}
